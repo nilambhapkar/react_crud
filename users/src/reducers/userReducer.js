@@ -1,27 +1,21 @@
 import _ from 'lodash';
 import {
-    FETCH_STREAMS,
-    FETCH_STEEAM,
-    CREATE_STREAM,
-    EDIT_STREAM, 
-    DELETE_STREAM
+    FETCH_USERS,
+    FETCH_USER,
+    CREATE_USER,
    
 } from '../actions/types';
 
 
 export default (state={}, action)=>{
     switch (action.type) {
-        case FETCH_STREAMS:
+        case FETCH_USERS:
             return { ...state, ..._.mapKeys(action.payload,'id') };
        
-        case FETCH_STEEAM:
-        case CREATE_STREAM:
-        case EDIT_STREAM:
+        case FETCH_USER:
+        case CREATE_USER:
             return {...state, [action.payload.id]:action.payload};
-        
-        case DELETE_STREAM:
-             return _.omit( state, action.payload );
-       
+   
         default:
             return state;
     }

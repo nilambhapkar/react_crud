@@ -1,25 +1,40 @@
 {
-  "streams": [
+  "users": [
     {
-      "title": "My Stream one",
-      "description": "Test Description 1",
+      "username": "niii",
+      "phone_number": "9090099",
+      "address": "jkjk",
+      "password": "12345",
+      "user_role": "admin",
+      "userId": "1",
       "id": 1
     },
     {
-      "title": "Title with user ffffffffffffffffffffffffffffffffff",
-      "description": "Dest nnn kkkk lfkgjk jkfdjlkg ",
+      "username": "parnika",
+      "phone_number": "8987888999",
+      "address": "pune",
+      "password": "1234",
+      "user_role": "normal",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "username": "sonu",
+      "phone_number": "98888888",
+      "address": "Pune",
+      "password": "1234",
+      "user_role": "normal",
+      "userId": 1,
       "id": 3
     },
     {
-      "title": "jijij wwwwwww",
-      "description": "jndjf jdjfkdkf jdkjf kdj",
-      "id": 5
-    },
-    {
-      "title": "sdl;fkks",
-      "description": "sdflk lksdlfk ls",
-      "userId": "117085748020325644656",
-      "id": 6
+      "username": "test1",
+      "phone_number": "777777",
+      "address": "uii",
+      "password": "1234",
+      "user_role": "normal",
+      "userId": 1,
+      "id": 4
     }
   ]
 }
